@@ -11,7 +11,7 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": false,
-    "declaration": false,
+    "declaration": true,
     "outDir": ".tsbuild/node",
 
     /* Linting */
