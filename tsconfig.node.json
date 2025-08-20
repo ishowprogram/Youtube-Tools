@@ -8,12 +8,10 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": false,
     "declaration": false,
-    "emitDeclarationOnly": false,
     "outDir": ".tsbuild/node",
 
     /* Linting */
