@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Youtube, Music, Hash, FileText, Image, Menu, X } from 'lucide-react';
 import Sidebar from './components/Sidebar';
 import Home from './components/Home';
@@ -27,13 +27,13 @@ function App() {
       case 'youtube':
         return <YoutubeDownloader isDark={isDark} />;
       case 'subtitles':
-        return <SubtitleDownloader isDark={isDark} />;
+        return <SubtitleDownloader />;
       case 'converter':
-        return <Converter isDark={isDark} />;
+        return <Converter />;
       case 'hashtags':
-        return <HashtagGenerator isDark={isDark} />;
+        return <HashtagGenerator />;
       case 'thumbnails':
-        return <ThumbnailDownloader isDark={isDark} />;
+        return <ThumbnailDownloader />;
       default:
         return <Home onToolSelect={setCurrentTool} isDark={isDark} />;
     }
