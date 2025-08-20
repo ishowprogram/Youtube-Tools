@@ -11,7 +11,10 @@
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
-    "noEmit": true,
+    "noEmit": false,
+    "declaration": false,
+    "emitDeclarationOnly": false,
+    "outDir": ".tsbuild/node",
 
     /* Linting */
     "strict": true,
